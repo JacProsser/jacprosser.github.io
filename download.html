@@ -6,19 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-
-  <title>about | jac prosser </title>
+  <title>contact | jac prosser </title>
   <link rel="icon" href="images/favicon_io/favicon.ico" />
-
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/unicons.css">
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
   <script src="js/colors.js" defer></script>
 
   <!-- MAIN STYLE -->
   <link rel="stylesheet" href="css/style.css">
-
+  
 
 </head>
 
@@ -42,14 +41,13 @@
                 data-hover="Github">Github</span></a>
           </li>
           <li class="nav-item">
-            <a href="https://www.linkedin.com/in/" target="_blank" class="nav-link"><span
+            <a href="https://www.linkedin.com/in/michaelbzhu" target="_blank" class="nav-link"><span
                 data-hover="LinkedIn">LinkedIn</span></a>
           </li>
           <li class="nav-item">
             <a href="/contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
           </li>
         </ul>
-        
 
         <ul class="navbar-nav ml-lg-auto">
           <button
@@ -97,76 +95,45 @@
     </div>
   </nav>
 
-  <!-- ABOUT -->
-  <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
+<!--   <section class="contact py-5" id="contact">
     <div class="container">
       <div class="row">
-        <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
-          <div class="about-text">
-            <!--<small class="small-text">Welcome to <span class="mobile-block">my portfolio website!</span></small>-->
-            <h1>
-          
-              <span class="mr-2">Hi, I'm Jac</span>
-            </h1>
-            <p>I'm currently a college student and a self-taught dev</p>
+        
 
-            <div class="custom-btn-group mt-4">
-              <!--<a href="#" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a>-->
-              <a href="/download"
-                class="btn custom-btn custom-btn-bg custom-btn-link">Download CV</a>
-                &nbsp
-              <a href="/contact"
-                class="btn custom-btn custom-btn-bg custom-btn-link">Contact Me</a>  
-                
-            </div>
+        <div class="col-lg-6 col-12">
+          <div class="contact-form">
+            <h2  style="position: relative; top: 100px; left: 200px" class="mb-4">Interested to work together? Let's talk</h2>
 
+            <form style="position: relative; top: 100px; left: 200px" action="send.php" method="post">
+              <div class="row">
+                <div class="col-lg-6 col-12">
+                  <input type="text" class="form-control" name="name" placeholder="Your Name" id="name">
+                </div>
+
+                <div class="col-lg-6 col-12">
+                  <input type="email" class="form-control" name="email" placeholder="Email" id="email">
+                </div>
+
+                <div class="col-12">
+                  <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
+                </div>
+
+                <div class="ml-lg-auto col-lg-5 col-12">
+                  <input type="submit" name="submit" class="form-control submit-btn" value="Send Button">
+                </div>
+              </div>
+            </form>
           </div>
         </div>
-        <div class="col-lg-5 col-md-12 col-12">
-          <div class="about-image svg">
-            <img src="images/Webp.net-resizeimage.png" class="img-fluid" alt="svg image">
-          </div>
-        </div>
+
       </div>
     </div>
-  </section>
-  </div>
-
-  <!-- CONTACT 
-    <section class="contact py-5" id="contact">
-      <div class="container">
-        <div class="row">
-          
-
-          <div class="col-lg-6 col-12">
-            <div class="contact-form">
-              <h2 class="mb-4">Interested to work together? Let's talk</h2>
-
-              <form action="" method="get">
-                <div class="row">
-                  <div class="col-lg-6 col-12">
-                    <input type="text" class="form-control" name="name" placeholder="Your Name" id="name">
-                  </div>
-
-                  <div class="col-lg-6 col-12">
-                    <input type="email" class="form-control" name="email" placeholder="Email" id="email">
-                  </div>
-
-                  <div class="col-12">
-                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
-                  </div>
-
-                  <div class="ml-lg-auto col-lg-5 col-12">
-                    <input type="submit" class="form-control submit-btn" value="Send Button">
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>-->
+  </section> -->
+  <iframe src="assets/Jacs CV.docx" id="my_iframe" style="display:none;"></iframe>
+  <script>
+  function Download(url) { document.getElementById('my_iframe').src = url;
+  };
+  </script>
 
   <!-- FOOTER -->
   <footer class="footer py-5" id="contact">
