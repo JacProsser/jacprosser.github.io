@@ -57,6 +57,14 @@ body {
     font-size: 36px !important
 }
 
+.title img {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
 .subtitle {
     color: #1e1f22, .81 !important;
     font-size: 16px !important;
