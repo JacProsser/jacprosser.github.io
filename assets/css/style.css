@@ -1,6 +1,7 @@
 /* CSS for responsive iframe */
 /* ========================= */
 
+
 /* outer wrapper: set max-width & max-height; max-height greater than padding-bottom % will be ineffective and height will = padding-bottom % of max-width */
 #Iframe-Master-CC-and-Rs {
   max-width: 512px;
@@ -38,14 +39,7 @@
 
 /* general styles */
 /* ============== */
-.set-border {
-  border: 5px inset #4f4f4f;
-}
-.set-box-shadow { 
-  -webkit-box-shadow: 4px 4px 14px #4f4f4f;
-  -moz-box-shadow: 4px 4px 14px #4f4f4f;
-  box-shadow: 4px 4px 14px #4f4f4f;
-}
+
 .set-padding {
   padding: 40px;
 }
