@@ -35,9 +35,9 @@
 
 <body>
   <!-- MENU -->
-  <nav class="navbar navbar-expand-sm navbar-light ">
+  <nav class="navbar navbar-expand-sm navbar-light">
     <div class="container">
-      <a class="navbar-brand" href="https://www.jacprosser.github.io/jacprosser/home">
+      <a class="navbar-brand" href="/home">
         <h2>jacprosser</h2>
       </a>
       <a href="#" class="toggle-button">
@@ -48,56 +48,57 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
-            <a href="https://www.jacprosser.github.io/jacprosser/home" class="nav-link"><i class="fas fa-home"></i>
-              Home</a>
+            <a href="/home" class="nav-link"
+              ><i class="fas fa-home"></i> Home</a
+            >
           </li>
           <li class="nav-item">
             <div class="dropdown">
-              <button class="dropbtn"><i class="fas fa-gamepad"></i> Games
-                <i class="fa fa-caret-down"></i></button>
+              <button class="dropbtn">
+                <i class="fas fa-gamepad"></i> Games
+                <i class="fa fa-caret-down"></i>
+              </button>
               <div class="dropdown-content">
                 <ul>
-                  <li><a href="https://www.jacprosser.github.io/jacprosser/products/toys">Tetris</a></li>
-                  <li><a href="https://www.jacprosser.github.io/jacprosser/products/electronics">Pac Man</a></li>
-                  <li><a href="https://www.jacprosser.github.io/jacprosser/products/jewellery">Fruit Ninja</a></li>
+                  <li><a href="./tetris">Tetris</a></li>
+                  <li><a href="./pacman">Pac Man</a></li>
+                  <li><a href="./fruitninja">Fruit Ninja</a></li>
+                  <li><a href="./doodlejump">DoodleJump</a></li>
                 </ul>
               </div>
-
             </div>
           </li>
-          <!--       <li class="nav-item">
-            <a href="https://github.com/JacProsser" target="_blank" class="nav-link"><span
-                data-hover="Github"></span></a>
-          </li>
-          <li class="nav-item">
-            <a href="https://www.linkedin.com/in/" target="_blank" class="nav-link"><span
-                data-hover="LinkedIn"></span></a>
-          </li> -->
-          <div class="dropdown" style="left: 10px;">
-            <button class="dropbtn"><i class="fas fa-briefcase"></i> Work
-              <i class="fa fa-caret-down"></i></button>
+          <div class="dropdown" style="left: 10px">
+            <button class="dropbtn">
+              <i class="fas fa-briefcase"></i> Work
+              <i class="fa fa-caret-down"></i>
+            </button>
             <div class="dropdown-content">
               <ul>
-                <li><a href="https://www.jacprosser.github.io/jacprosser/products/toys">Pay PDF</a></li>
-                <li><a href="https://www.jacprosser.github.io/jacprosser/products/electronics">Holidays</a></li>
-                <li><a href="https://www.jacprosser.github.io/jacprosser/products/jewellery">Ext Links</a></li>
+                <li><a href="./work/paypdf">Pay PDF</a></li>
+                <li><a href="./work/holidays">Holidays</a></li>
+                <li><a href="./work/extlinks">Ext Links</a></li>
               </ul>
             </div>
-
           </div>
-          <li class="nav-item" style="left: 10px;">
-            <a href="https://www.jacprosser.github.io/jacprosser/contact" class="nav-link"><i
-                class="fas fa-phone-alt"></i>
-              Contact</a>
+          <li class="nav-item" style="left: 10px">
+            <a href="./contact" class="nav-link"
+              ><i class="fas fa-phone-alt"></i> Contact</a
+            >
           </li>
         </ul>
-
-
       </div>
 
       <ul class="navbar-nav ml-lg-auto">
-        <button class="color-mode-toggle light-hidden" aria-label="Toggle Light Mode">
-          <svg id="sun" viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round"
+        <button
+          class="color-mode-toggle light-hidden"
+          aria-label="Toggle Light Mode">
+          <svg
+            id="sun"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke-width="1.5"
+            stroke-linecap="round"
             stroke-linejoin="round">
             <circle cx="12" cy="12" r="5"></circle>
             <line x1="12" y1="1" x2="12" y2="3"></line>
@@ -110,21 +111,24 @@
             <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
           </svg>
         </button>
-        <button class="color-mode-toggle dark-hidden" aria-label="Toggle Dark Mode">
-          <svg id="moon" viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round"
+        <button
+          class="color-mode-toggle dark-hidden"
+          aria-label="Toggle Dark Mode">
+          <svg
+            id="moon"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke-width="1.5"
+            stroke-linecap="round"
             stroke-linejoin="round">
             <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
           </svg>
         </button>
-    </div>
-    </div>
-    </ul>
-    </div>
-    </div>
-  </nav>
+      </ul>
+    </nav>
   <section>
     <div class="form-wrapper">
-      <form autocomplete=off id="form" method="post" name="emailform" action="https://formspree.io/f/xvodkvjp">
+      <form autocomplete=off id="form" method="post" name="emailform" action="">
         <p class="form-undertitle">Fields marked "<span style="color: red">*</span>" are required.</p>
         <div class="form-input-grid">
           <div>
@@ -168,23 +172,6 @@
       </form>
     </div>
   </section>
-
-
-  <!-- FOOTER -->
-  <footer class="footer py-5" id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-12">
-          <p class="copyright-text text-center">
-        </div>
-      </div>
-    </div>
-  </footer>
-  <ul class="links">
-    <li><a href="http://jacprosser.github.io/jacprosser/privacypolicy">Privacy Policy</a></li>
-    <li><a href="http://jacprosser.github.io/jacprosser/termsandconditions">Terms & Conditions</a></li>
-    <li><a href="http://jacprosser.github.io/jacprosser/returnpolicy">Return Policy</a></li>
-  </ul>
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/popper.min.js"></script>
